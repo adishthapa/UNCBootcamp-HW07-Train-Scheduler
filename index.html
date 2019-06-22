@@ -24,6 +24,61 @@
 
 <body>
 
+    <div class="container">
+
+        <div class="row pb-5" id="title">
+            <div class="col">
+
+                <nav class="navbar navbar-dark bg-dark p-5 justify-content-center text-center">
+                    <p><span class="text-white h1">Anytime is Train Time</span>
+                        <br>
+                    <span class="text-white h4">Choo Choo. Chee Chee.</span></p>
+                </nav>
+
+            </div>
+        </div>
+
+        <div class="row pt-3 m-0">
+            <div class="col nopadding">
+                <header class="pl-2" id="title-nav">
+                    <h5>Current Train Schedule</h5>
+                </header>
+                <div class="px-3" id="top-articles">
+                </div>
+            </div>
+        </div>
+
+        <br>
+
+        <div class="row pb-4 m-0">
+            <div class="col nopadding">
+                <header class="pl-2" id="title-nav">
+                    <h5>Add Train</h5>
+                </header>
+                <form class="p-3">
+                    <div class="form-group">
+                        <label for="name-input">Train Name:</label>
+                        <input type="text" class="form-control" id="name-input">
+                    </div>
+                    <div class="form-group">
+                        <label for="destination-input">Destination:</label>
+                        <input type="text" class="form-control" id="destination-input">
+                    </div>
+                    <div class="form-group">
+                        <label for="time-input">First Train Time (HH:mm - military time)</label>
+                        <input type="text" class="form-control" id="time-input">
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputEmail1">Frequency (min):</label>
+                        <input type="text" class="form-control" id="exampleInputEmail1">
+                    </div>
+                    <button type="submit" class="btn bg-dark text-white" id="search">Submit</button>
+                </form>
+            </div>
+        </div>
+
+    </div>
+
     <!-- CDN for Custom JS -->
     <script src="assets/javascript/app.js"></script>
 

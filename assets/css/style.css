@@ -1,0 +1,29 @@
+body {
+    font-family: 'Times New Roman', Times, serif
+}
+
+h1 {
+    color: white;
+}
+
+#title-nav {
+    background-color: #F8F8F8;
+    padding: 0;
+    border: 2px solid #E7EAEC;
+}
+
+#title-nav h5 {
+    margin-top: 8px;
+}
+form {
+    border: 2px solid #E7EAEC;
+}
+
+.nopadding {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+#top-articles {
+    border: 2px solid #E7EAEC;
+}
