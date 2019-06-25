@@ -15,6 +15,9 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
+    <!-- CDN for Moment.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+
     <!-- CDN for Custom CSS -->
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 
@@ -55,7 +58,7 @@
                                 <th class="text-dark" scope="col">Minutes Away</th>
                             </tr>
                         </thead>
-                        <tbody>
+                        <tbody class="train">
                         </tbody>
                     </table>
                 </div>
@@ -83,10 +86,10 @@
                         <input type="text" class="form-control" id="time-input">
                     </div>
                     <div class="form-group">
-                        <label for="exampleInputEmail1">Frequency (min):</label>
-                        <input type="text" class="form-control" id="exampleInputEmail1">
+                        <label for="frequency-input">Frequency (min):</label>
+                        <input type="text" class="form-control" id="frequency-input">
                     </div>
-                    <button type="submit" class="btn bg-dark text-white" id="search">Submit</button>
+                    <button type="button" class="btn bg-dark text-white" id="submit">Submit</button>
                 </form>
             </div>
         </div>
