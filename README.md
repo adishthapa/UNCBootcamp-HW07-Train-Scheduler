@@ -20,4 +20,4 @@ A Train Scheduling application that keeps track of a train's name, destination, 
 
 ## Deployed Link
 
-[https://adishthapa.github.io/UNCBootcamp-HW07-Train-Scheduler](https://adishthapa.github.io/UNCBootcamp-HW07-Train-Scheduler)
+[https://adishthapa.github.io/train-scheduler](https://adishthapa.github.io/train-scheduler)
